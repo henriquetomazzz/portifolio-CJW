@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Início CJW</title>
+  <link rel="icon" href="/assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <div class="brand">CJW</div>
+      <div style="flex:1"></div>
+      <a href="index.html" class="active">Início</a>
+      <a href="portfolio.html" class="">Portfólio</a>
+      <a href="informacoes.html" class="">Informações</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="assets/membros/carlos.png" alt="Foto de perfil" />
+      <div>
+        <h1>Olá, eu sou Carlos Henrique 👋</h1>
+        <p>Desenvolvedor Full Stack no laboratório IDE.IA, participando de projetos com Java, Spring Boot, ReactJS,
+          NodeJS, SQL e Clojure, do backend ao frontend, com foco em soluções escaláveis e de alta performance.</p>
+        <a href="https://github.com/henriquetomazzz" aria-disabled="true" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/dev-henrique-tomaz/" aria-disabled="true" target="_blank"
+          rel="noopener">Linkedin</a>
+      </div>
+
+    </section>
+    <section class="hero">
+      <img src="assets/membros/jerfeson.png" alt="Foto de perfil" />
+      <div>
+        <h1>Olá, eu sou Jerfeson Grégorio 👋</h1>
+        <p>Atuação como QA de Automação no laboratório IDE.IA, desenvolvendo e executando testes automatizados em
+          Clojure e SQL, com foco na garantia da qualidade de software.</p>
+        <a href="https://github.com/JerfesonGregorio" aria-disabled="true" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/jerfeson-greg%C3%B3rio-moreno-008199293/" aria-disabled="true"
+          target="_blank" rel="noopener">Linkedin</a>
+      </div>
+    </section>
+
+    <section class="hero">
+      <img src="assets/membros/willian.png" alt="Foto de perfil" />
+      <div>
+        <h1>Olá, eu sou Willian de Melo 👋</h1>
+        <p>Desenvolvedor Full Stack no laboratório IDE.IA, participando de projetos com Java, Spring Boot, ReactJS,
+          NodeJS e SQL do backend ao frontend, com foco em soluções escaláveis e de alta performance.</p>
+        <a href="https://github.com/MeloWillian" aria-disabled="true" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/willian-melo-995a93307/" aria-disabled="true" target="_blank"
+          rel="noopener">Linkedin</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Comentários</h2>
+      <form id="comment-form" style="display:grid; gap:10px; margin-top:12px">
+        <input id="comment-author" type="text" placeholder="Seu nome" required />
+        <textarea id="comment-text" rows="3" placeholder="Seu comentário" required></textarea>
+        <div style="display:flex; gap:10px; align-items:center">
+          <button type="submit">Adicionar comentário</button>
+          <button type="button" id="clear-all" class="ghost">Limpar tudo</button>
+        </div>
+      </form>
+      <div id="comments" style="margin-top:16px"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <h2>Autores: </h2>
+        <p>Carlos Henrique Tomaz da Silva, Jerfeson Gregório Moreno, Willian de Melo Araújo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
